@@ -258,6 +258,11 @@ img {
   letter-spacing: 0.02em;
   color: var(--text-color);
 }
+.team-soc-list {
+  display: flex;
+}
+.team-soc-icon {
+}
 .products-title {
   font-weight: 700;
   font-size: 36px;
