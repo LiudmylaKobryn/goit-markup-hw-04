@@ -447,8 +447,6 @@ img {
   max-width: 264px;
 }
 .footer-soc-continer {
-  display: flex;
-  align-items: baseline;
 }
 .footer-soc-text {
   font-weight: 500;
