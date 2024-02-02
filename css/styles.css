@@ -258,9 +258,13 @@ img {
   letter-spacing: 0.02em;
   color: var(--text-color);
 }
+.team-soc-container {
+}
 .team-soc-list {
   display: flex;
   justify-content: center;
+  align-items: center;
+  margin-top: 8px;
   gap: 24px;
 }
 .team-soc-item {
@@ -349,6 +353,9 @@ img {
   background-color: var(--title-color);
   padding: 100px 0;
 }
+.footer-container {
+  margin-right: 120px;
+}
 .footer-link {
   display: inline-block;
   margin-bottom: 16px;
@@ -373,4 +380,34 @@ img {
   letter-spacing: 0.02em;
   color: #f4f4fd;
   max-width: 264px;
+}
+.footer-soc-continer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.footer-soc-list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 24px;
+}
+.footer-soc-item {
+  width: 40px;
+  height: 40px;
+}
+.icon-link {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #4d5ae5;
+  border-radius: 50%;
+}
+.team-soc-icon {
+  fill: #f4f4fd;
+  stroke: #f4f4fd;
+}
+.team-soc-item {
 }
