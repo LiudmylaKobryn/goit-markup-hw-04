@@ -345,8 +345,31 @@ img {
 .portfolio-link {
   width: calc((100% - 2 * 24px) / 3);
 }
-
+.portfolio-link:hover .portfolio-cover-container {
+  transform: translateY(0);
+}
 .portfolio-item {
+}
+.portfolio-cover-wrap {
+  position: relative;
+  overflow: hidden;
+}
+.portfolio-cover-container {
+  position: absolute;
+  top: 0;
+  background-color: #4d5ae5;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  padding: 0 32px;
+  transform: translateY(100%);
+  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.portfolio-cover-text {
+  color: var(--btn-color);
+  font-size: 16px;
+  line-height: 1, 5;
+  letter-spacing: 0.02em;
 }
 .app-name {
   padding: 32px 16px;
