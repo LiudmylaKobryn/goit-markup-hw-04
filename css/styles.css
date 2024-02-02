@@ -387,14 +387,19 @@ img {
 }
 .footer-soc-continer {
   display: flex;
-  align-items: center;
-  justify-content: center;
+  align-items: baseline;
+}
+.footer-soc-text {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--second-text-color);
+  margin-bottom: 16px;
 }
 .footer-soc-list {
   display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 24px;
+  gap: 16px;
 }
 .footer-soc-item {
   width: 40px;
