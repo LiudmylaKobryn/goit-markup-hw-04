@@ -202,6 +202,7 @@ img {
   justify-content: center;
   height: 112px;
   background-color: #f4f4fd;
+  border: 1px solid var(--LIGHT-SLATE, #8e8f99);
   border-radius: 4px;
   margin-bottom: 8px;
 }
@@ -271,8 +272,7 @@ img {
   letter-spacing: 0.02em;
   color: var(--text-color);
 }
-.team-soc-container {
-}
+
 .team-soc-list {
   display: flex;
   justify-content: center;
