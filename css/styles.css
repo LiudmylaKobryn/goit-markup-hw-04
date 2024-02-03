@@ -93,7 +93,7 @@ img {
 .header-menu-item {
   gap: 40px;
 }
-.studio {
+.header-menu-link.studio {
   position: relative;
   color: #404bbf;
 }
