@@ -30,6 +30,7 @@ ul {
 }
 a {
   text-decoration: none;
+  white-space: nowrap;
 }
 button {
   cursor: pointer;
@@ -45,10 +46,6 @@ img {
   margin: 0 auto;
 }
 
-.link {
-  text-decoration: none;
-  white-space: nowrap;
-}
 .list {
   list-style: none;
 }
